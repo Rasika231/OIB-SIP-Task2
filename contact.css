@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+*{
+    /* background-color:  #f45f8c; */
+    font-family: 'Yatra One', cursive;
+    /* background-color: black; */
+}
+.container{
+    /* background-color: black; */
+    /* background-color:  #f9004d; */
+    background-color: white;
+    display: flex;
+    height: 600px;
+    width: fit-content;
+    border: 0.4px solid transparent;
+    border-radius: 20px;
+    margin-left: 300px;
+    box-shadow:0 0 10px 10px rgba(0, 0, 0, 0.4);
+    margin-top: 50px;
+}
+.contact h2{
+    margin-left: 150px;
+   color: rgb(252, 252, 252);
+}
+.contact input{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-right: 80px;
+    border: 2px solid black;
+}
+.contact img{
+    height: 400px;
+    width: 400px;
+    border-radius: 19px;
+}
+#image{
+    background-color: white;
+    border-radius: 25px;
+}
+#image a{
+font-size: 25px;
+display: flex;
+flex-direction: column;
+background-color: rgb(250, 251, 251);
+margin-top: 15px;
+text-decoration: none;
+color: black;
+margin-left: 15px;
+}
+.contact textarea{
+    border-radius: 19px;
+    background-color: aliceblue;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: larger;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-right: 100px;
+}
+#myin{
+    border-radius: 20px;
+}
+.icon {
+    background-color: rgb(254, 254, 254);
+    display: flex;
+}
+.icon  i{
+    background-color: black;
+  padding: 15px;
+  border: 3px solid rgb(0, 5, 7);
+  align-items: center;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 20px;
+  font-size: 20px;
+  transition: .2s;
+  color: #f7f7f7;
+}
+.icon i:hover{
+    background-color: aliceblue;
+    color: #030001;
+}
+.inst{
+    color: rgb(227, 74, 110);
+}
+.sub{
+    background-color: #030001;
+    cursor: pointer;
+}
+.sub:hover{
+    background-color: rgb(10, 0, 0);
+    color: aliceblue;
+}
+span {
+    color: #f9004d;
+}
